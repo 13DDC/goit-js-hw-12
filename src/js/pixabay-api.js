@@ -4,7 +4,7 @@ export async function pixabayApi(findText, page) {
   try {
     const BASE_URL = 'https://pixabay.com/api/';
     const params = new URLSearchParams({
-      key: '44040015-64d065a912d04f3627622b428',
+      key: '44163417-71574278e0bc921a5136b7d8e',
       q: findText,
       image_type: 'photo',
       orientation: 'horizontal',
